@@ -7,6 +7,33 @@
 
 /* Generics */
 
+body {
+    font-family: "Fredoka", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 10px 15px;
+    transition: transform 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
 .flex {
     display: flex;
 }
@@ -17,6 +44,14 @@
 
 .border-white {
     border: 2px dashed #FFFFFF;
+}
+
+.btc-white {
+    background-color: white;
+}
+
+.btc-black {
+    background-color: #23272A;
 }
 
 .main-container {
@@ -30,9 +65,13 @@
     flex-direction: row-reverse;
 }
 
+.margin-20 {
+    margin: 10px;
+}
+
 /* Header */
 
-.header-bg{
+.header-bg {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,10 +84,9 @@
 }
 
 .navbar {
-    background-color: #DAA520;
     margin: 0 auto;
-    width: 60%;
-    max-width: 1080px;
+    width: 80%;
+    max-width: 1500px;
 }
 
 /* Navbar Logo */
@@ -61,16 +99,12 @@
 /* Navbar Link */
 
 .navbar-link {
-    height: 100%;
+
     flex-grow: 1;
     justify-content: center;
-    gap: 20px;
-    padding: 10px;
-}
+    align-items: center;
+    gap: 50px;
 
-.navbar-link-text {
-    text-decoration: none;
-    color: black;
 }
 
 /* Navbar Login */
@@ -81,6 +115,10 @@
     padding: 10px;
 }
 
+.btc-white {
+    background-color: white;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -88,11 +126,30 @@
 }
 
 .jumbotron-container {
-    background-color: #EE82EE;
-    height: 400px;
-    width: 45%;
-    max-width: 900px;
+    width: 60%;
+    max-width: 800px;
     margin: 0 auto;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.jumbotron-title {
+    padding-bottom: 35px;
+    font-size: 50px;
+}
+
+.jumbotron-text {
+    padding-bottom: 30px;
+    font-size: 21px;
+}
+
+.btc-jumbotron-white {
+    background-color: white;
+}
+
+.jumbotron-buttons {
+    justify-content: center;
+    gap: 20px;
 }
 
 /* Main 
