@@ -51,14 +51,6 @@ a {
     display: flex;
 }
 
-.border {
-    border: 2px dashed black;
-}
-
-.border-white {
-    border: 2px dashed #FFFFFF;
-}
-
 .btc-white {
     background-color: white;
 }
@@ -230,7 +222,7 @@ a {
 
 .section-bg-darkgray-small {
     background-color: #23272A;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* Footer Background Color */
@@ -273,20 +265,14 @@ a {
     padding-bottom: 20px;
 }
 
+.border-bottom {
+    border-bottom: 1px solid #7189DA;
+}
+
 /* Footer Navbar */
 
 .footer-navbar {
-    background-color: #7FFFD4;
-    height: 60px;
     justify-content: space-between;
     align-items: center;
-}
-
-.footer-navber-badge {
-    background-color: #FFB6C1;
-    padding: 5px;
-}
-
-.border-bottom {
-    border-bottom: 1px solid #7189DA;
+    padding-bottom: 50px;
 }
