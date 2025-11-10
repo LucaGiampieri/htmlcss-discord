@@ -276,3 +276,20 @@ a {
     align-items: center;
     padding-bottom: 50px;
 }
+
+/* Wave */
+
+.wave {
+    height: 150px;
+    background-color: #f6f6f6;
+    -webkit-mask-image: url(../img/wave.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    mask-image: url(../img/wave.svg);
+    mask-repeat: no-repeat;
+    mask-size: cover;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
