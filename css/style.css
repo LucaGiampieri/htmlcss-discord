@@ -8,7 +8,12 @@
 /* Generics */
 
 body {
-    font-family: "Fredoka", sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
 }
 
 a {
@@ -34,6 +39,14 @@ a {
     color: black;
 }
 
+.text-blue {
+    color: #7189DA;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .flex {
     display: flex;
 }
@@ -54,6 +67,10 @@ a {
     background-color: #23272A;
 }
 
+.btc-blue {
+    background-color: #7189DA;
+}
+
 .main-container {
     width: 75%;
     max-width: 1300px;
@@ -62,6 +79,10 @@ a {
 
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .section-title {
@@ -78,8 +99,9 @@ a {
 
 .header-bg {
     background-image: url(../img/jumbo.png);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 /* Navbar */
@@ -164,31 +186,38 @@ a {
 
 .section-bg-white {
     background-color: #FFFFFF;
-    padding: 30px;
+    padding: 80px;
 }
 
 .section-bg-gray {
-    background-color: #D3D3D3;
-    padding: 30px;
+    background-color: #F6F6F6;
+    padding: 80px;
 }
 
 /* Main Background Color */
 
-.bg-lightblue {
-    background-color: #1E90FF;
+.bg-big {
     flex-basis: 60%;
 }
 
-.bg-pink {
-    background-color: #FFC0CB;
+.bg-small {
     flex-basis: 40%;
 }
 
-.bg-green {
-    background-color: #228B22;
-    height: 700px;
+.question-title {
+    background-image: url(../img/stars.svg);
+    width: 50%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 35px;
+    font-size: 30px;
+    margin: 50px auto;
 }
 
+.button-blue {
+    justify-content: center;
+}
 
 /* Footer */
 
@@ -196,32 +225,52 @@ a {
 
 .section-bg-darkgray-big {
     background-color: #23272A;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #FFFFFF;
+    padding-top: 80px;
 }
 
 .section-bg-darkgray-small {
     background-color: #23272A;
-    border-bottom: 1px solid #FFFFFF;
-    border-top: 1px solid #FFFFFF;
     padding-top: 20px;
 }
 
 /* Footer Background Color */
 
-.bg-salmon {
-    background-color: #F08080;
+.bg-footer-left {
     flex-basis: 30%;
+    padding-bottom: 30px;
 }
 
-.bg-aqua {
-    background-color: #20B2AA;
+.bg-footer-right {
     flex-basis: 70%;
+    padding-bottom: 30px;
 }
 
-.bg-aqua-inside {
+.bg-footer-right-inside {
     flex-basis: 25%;
+}
+
+.footer-main-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.italian-section {
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.italian-flag {
+    height: 20px;
+    width: auto;
+}
+
+.italian-text {
+    font-size: 15px;
+}
+
+.footer-link-list {
+    padding-bottom: 20px;
 }
 
 /* Footer Navbar */
@@ -236,4 +285,8 @@ a {
 .footer-navber-badge {
     background-color: #FFB6C1;
     padding: 5px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #7189DA;
 }
